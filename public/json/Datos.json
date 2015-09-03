@@ -1,0 +1,13 @@
+{
+    "table_conf" : ["Nombre","Apellido","Edad","Sexo"],
+
+    "table_body" : [
+
+        ["Elihu ; class-0","Cruz","19","M"],
+        ["Jose","Albores","13","M"],
+        ["Antonia","Juarez","50","F"],
+        ["Alex","Gonzales","19","M"],
+        ["Martha","Hernandez","20","F"],
+        ["Britany","Paniagua","17","F"]
+    ]
+}

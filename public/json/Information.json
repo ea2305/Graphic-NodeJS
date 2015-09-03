@@ -1,0 +1,37 @@
+{
+    "table_head" : [
+
+        {
+            "title": "Nombre",
+            "class":"color_font_white",
+            "link" :""
+        },
+        {
+            "title": "Apellido",
+            "class":"color_font_black",
+            "link" :"http://facebook.com"
+        },
+        {
+            "title": "Edad",
+            "class":"color_font_white",
+            "link" :"http://xataka.com"
+        },
+        {
+            "title": "Sexo",
+            "class":"color_font_black",
+            "link" :"http://google.com"
+        }
+
+],
+
+    "table_body" : [
+        ["Elihu"  ,"Cruz"     ,19,"M"],        
+        ["Jessica","Morales"  ,20,"F"],
+        ["Alejandro"   ,"Herrera" ,39,"F"],
+        ["Jose"   ,"Albores"  ,13,"M"],
+        ["Antonia","Juarez"   ,50,"F"],
+        ["Alex"   ,"Gonzales" ,19,"M"],
+        ["Martha" ,"Hernandez",20,"F"],
+        ["Britany","Paniagua" ,17,"F"]
+    ]
+}

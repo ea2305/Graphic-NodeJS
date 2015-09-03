@@ -1,0 +1,43 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		script(src="/build/react.js")
+		script(src="/build/JSXTransformer.js")
+
+		link(rel="stylesheet" href="/css/main.css")
+		link(rel="stylesheet" href="/css/bootstrap.min.css")
+		script(type="text/javascript" src = "/js/jquery.js")
+		script(type = "text/jsx" src = "/js/Grafica.jsx")
+		script(type="text/javascript" src="http://localhost:8080/node_modules/socket.io/node_modules/socket.io-client/socket.io.js")
+
+		title Grafica NodeJS,Jade and ReactJS
+	body
+		form(class = "col-md-6 text-center" action = "/refresh" method = post)
+			h4 ¿Eres estudiante? : 
+
+			label(for = "Q1_Si") Si
+			input(type = "radio" name = "Q1_Si")
+			label(for = "Q1_No") No
+			input(type = "radio" name = "Q1_No")
+			
+			br
+			h4 ¿Trabajas? : 
+
+			label(for = "Q1_Si") Si
+			input(type = "radio" name = "Q2_Si")
+			label(for = "Q1_No") No
+			input(type = "radio" name = "Q2_No")
+
+			br
+			h4 ¿Ninguno de los anteriores? : 
+
+			label(for = "Q1_Si") Si
+			input(type = "radio" name = "Q3_Si")
+			label(for = "Q1_No") No
+			input(type = "radio" name = "Q3_No")
+			br
+
+			input(type = "submit" name = "Send" value = "Send response")
+
+		div(id = "mi_div")

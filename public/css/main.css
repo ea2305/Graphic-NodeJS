@@ -1,0 +1,56 @@
+body{
+    background: black;
+}
+#container{
+    background: #757de8;
+}
+
+/*Colores para CSS*/
+.color_black{
+    background: black;
+}
+.color_softBlue{
+    background: #757de8;
+}
+
+/*Colores fondo de letra*/
+
+.color_font_white{
+    color: white;
+}
+.color_font_black{
+    color: black;
+}
+
+/*Atributos*/
+.inline_block{
+    float: none;
+    display: inline-block;
+}
+
+.Reloj{
+    background: white;
+}
+
+.class_title{
+    padding-left: 1em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.class_text{
+    padding-left: 1em;
+    font-size: 1em;
+    font-weight: lighter;
+}
+.textBox{
+    width: 30em;
+    height: 10em;
+}
+
+
+/*Margenes */
+
+.container_div{
+    
+}

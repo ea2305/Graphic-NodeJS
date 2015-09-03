@@ -1,0 +1,56 @@
+{
+    "datos_fila": [
+        {
+            "id_columna": 1,
+            "datos_columna": [
+                {
+                    "class": "class_title",
+                    "data": "Nombre"
+                },
+                {
+                    "class": "class_title",
+                    "data": "Edad"
+                }
+            ]
+        },
+        {
+            "id_columna": 2,
+            "datos_columna": [
+                {
+                    "class": "class_text",
+                    "data": "Elihu"
+                },
+                {
+                    "class": "class_text",
+                    "data": 19
+                }
+            ]
+        },
+        {
+            "id_columna": 3,
+            "datos_columna": [
+                {
+                    "class": "class_text",
+                    "data": "Selene"
+                },
+                {
+                    "class": "class_text",
+                    "data": 18
+                }
+            ]
+        },
+        {
+            "id_columna": 4,
+            "datos_columna": [
+                {
+                    "class": "class_text",
+                    "data": "Beto"
+                },
+                {
+                    "class": "class_text",
+                    "data": 23
+                }
+            ]
+        }
+    ]
+}

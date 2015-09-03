@@ -1,0 +1,30 @@
+doctype html
+html(lang = "en")
+	head
+		script(src="build/react.js")
+		script(src="build/JSXTransformer.js")
+		script(src="/socket.io/socket.io.js")
+		script(src="/js/jquery.js")
+		link(rel="stylesheet" href="/css/main.css")
+		link(rel="stylesheet" href="/css/bootstrap.min.css")
+
+		title Mi pagina con NodeJS y Socket IO
+	body
+		h1 
+			center Resultados de encuesta:
+		div(id = "container")
+
+		div
+			h3  
+				center Responda a las siguientes preguntas : con Si o No.
+			form(action="" class = "text-center")
+
+				label ¿Trabajas?
+				input(id="m" type="checkbox")
+				br
+				label ¿Estudias?
+				input(id="s" type="checkbox")
+				br
+				button Actualizar
+
+			script( type="text/javascript" src="/js/encuesta.js")

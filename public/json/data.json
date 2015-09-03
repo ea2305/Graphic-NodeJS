@@ -1,0 +1,24 @@
+{
+	"Graphic" : [
+		{
+			"Dato" : "Aprovados",
+			"data" : 25
+		},
+		{
+			"Dato" : "Extra",
+			"data" : 2
+		},
+		{
+			"Dato" : "Reprovados",
+			"data" : 35
+		},
+		{
+			"Dato" : "Pendientes",
+			"data" : 5
+		},
+		{
+			"Dato" : "Noobs",
+			"data" : 45
+		}
+	]
+}
