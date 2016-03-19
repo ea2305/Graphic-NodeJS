@@ -1,13 +1,19 @@
-body{
-    background: black;
-}
-#container{
+#Cuerpo{
     background: #757de8;
 }
 
+#Formulario{
+    margin-top: 3em;
+    margin-bottom: 4em;
+}
 /*Colores para CSS*/
+
 .color_black{
     background: black;
+}
+
+.color_white{
+    background: white;
 }
 .color_softBlue{
     background: #757de8;
@@ -22,7 +28,9 @@ body{
     color: black;
 }
 
+
 /*Atributos*/
+
 .inline_block{
     float: none;
     display: inline-block;
@@ -48,9 +56,7 @@ body{
     height: 10em;
 }
 
-
-/*Margenes */
-
-.container_div{
-    
+.margenes{
+    margin-top: 3em;
+    margin-bottom: 3em;
 }

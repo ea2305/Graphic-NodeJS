@@ -1,13 +1,72 @@
 {
-    "table_conf" : ["Nombre","Apellido","Edad","Sexo"],
-
-    "table_body" : [
-
-        ["Elihu ; class-0","Cruz","19","M"],
-        ["Jose","Albores","13","M"],
-        ["Antonia","Juarez","50","F"],
-        ["Alex","Gonzales","19","M"],
-        ["Martha","Hernandez","20","F"],
-        ["Britany","Paniagua","17","F"]
+    "datos_fila": [
+        {
+            "id_columna": 1,
+            "datos_columna": [
+                {
+                    "class": "class_title",
+                    "data": "Nombre"
+                },
+                {
+                    "class": "class_title",
+                    "data": "Edad"
+                },
+                {
+                    "class": "class_title",
+                    "data": "Sexo"
+                }
+            ]
+        },
+        {
+            "id_columna": 2,
+            "datos_columna": [
+                {
+                    "class": "class_text",
+                    "data": "Elihu"
+                },
+                {
+                    "class": "class_text",
+                    "data": 19
+                },
+                {
+                    "class": "class_text",
+                    "data": "M"
+                }
+            ]
+        },
+        {
+            "id_columna": 3,
+            "datos_columna": [
+                {
+                    "class": "class_text",
+                    "data": "Selene"
+                },
+                {
+                    "class": "class_text",
+                    "data": 18
+                },
+                {
+                    "class": "class_text",
+                    "data": "F"
+                }
+            ]
+        },
+        {
+            "id_columna": 4,
+            "datos_columna": [
+                {
+                    "class": "class_text",
+                    "data": "Beto"
+                },
+                {
+                    "class": "class_text",
+                    "data": 23
+                },
+                {
+                    "class": "class_text",
+                    "data": "M"
+                }
+            ]
+        }
     ]
 }

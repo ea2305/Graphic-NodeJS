@@ -43,6 +43,7 @@ io.on('connection',function(socket){
 		console.log("Usuarios que estudia : " + Indicadores.Estudia + " Usuarios que trabaja : " + Indicadores.Trabaja );
 
 		//Emite la informacion a todos los usuarios
+		//Consulta el socket a ¡l que lo mando_____
 		io.emit('information', Indicadores);
 
 	});

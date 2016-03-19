@@ -1,6 +1,7 @@
 /**
-* @ author Elihu Alejandro Cruz Albores
-* @ version 1.0
+* author Elihu Alejandro Cruz Albores
+* author Luis Angel Farelo Toldeo
+* version 1.0
 */
 
 //Funcion para obtencion de informacion de elemnto Form
@@ -24,10 +25,10 @@ socket.on('information', function(data){
 	var Graphic = data;
 	console.log(Graphic);
 
-	reactGraphic(Graphic.Estudia,Graphic.Trabaja);
+	reactGraphic(Graphic.Trabaja,Graphic.Estudia);
 });
 
-function reactGraphic(Estudia, Trabaja){
+function reactGraphic(Trabaja, Estudia){
 
 	function getDatos(){
 
@@ -35,12 +36,12 @@ function reactGraphic(Estudia, Trabaja){
 			{
 				"Graphic" : [
 					{
-						"Dato" : "Estudia",
-						"data" : Estudia
+						"Dato" : "Trabaja",
+						"data" : Trabaja
 					},
 					{
-						"Dato" : "Extra",
-						"data" : Trabaja
+						"Dato" : "Estudia",
+						"data" : Estudia
 					}
 				]
 			}
@@ -89,9 +90,11 @@ function reactGraphic(Estudia, Trabaja){
 
 			for(i = 0; i < t ; i++){
 
+				var info = Data[i].Dato;
+
 				Position = ((Data[i].data * (height - 40)) / Top) * -1;
 
-				CreateRect(Ancho, height, Position,i, draw);
+				CreateRect(Ancho, height, Position,i, draw, info);
 
 			}
 		}
@@ -100,10 +103,15 @@ function reactGraphic(Estudia, Trabaja){
 		}
 	}
 
-	function CreateRect(Ancho, height, Position, index, canvas){
+	function CreateRect(Ancho, height, Position, index, canvas, info){
 
+	  	canvas.fillStyle = "black";
+	  	canvas.fillRect( 20 + (Ancho * index), height,Ancho - 40, Position + 20);
 	  	canvas.fillStyle = "blue";
-	  	canvas.fillRect((Ancho * index), height,Ancho - 3, Position);
+	  	canvas.fillRect( 40 + (Ancho * index), height,Ancho - 40, Position + 40);
+	  	
+	  	canvas.font = "bold 22px sans-serif";
+		canvas.fillText(info,30 + (Ancho * index) ,30);
 	}
 
 

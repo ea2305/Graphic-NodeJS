@@ -1,30 +1,36 @@
 doctype html
+
 html(lang = "en")
 	head
 		script(src="build/react.js")
 		script(src="build/JSXTransformer.js")
 		script(src="/socket.io/socket.io.js")
 		script(src="/js/jquery.js")
-		link(rel="stylesheet" href="/css/main.css")
-		link(rel="stylesheet" href="/css/bootstrap.min.css")
+		link(rel="stylesheet" href="css/main.css")
+		link(rel="stylesheet" href="css/bootstrap.min.css")
 
 		title Mi pagina con NodeJS y Socket IO
-	body
-		h1 
-			center Resultados de encuesta:
-		div(id = "container")
 
+	body(id="Cuerpo")
+
+		div(class="col-md-12 color_font_white margenes")
+			h1 
+				em
+					center Resultados de encuesta:
 		div
-			h3  
-				center Responda a las siguientes preguntas : con Si o No.
-			form(action="" class = "text-center")
+			div(id="Formulario" class="col-md-4 ")
+				h3  
+					center Responda a las siguientes preguntas : Seleccionando la opciones.
+				form(class = "text-center margenes")
 
-				label ¿Trabajas?
-				input(id="m" type="checkbox")
-				br
-				label ¿Estudias?
-				input(id="s" type="checkbox")
-				br
-				button Actualizar
+					label ¿Estudias?
+					input(id="m" type="checkbox")
+					br
+					label ¿Trabajas?
+					input(id="s" type="checkbox")
+					br
+					button Actualizar
 
-			script( type="text/javascript" src="/js/encuesta.js")
+				script( type="text/javascript" src="/js/encuesta.js")
+
+			div(id = "container" class="col-md-8 ")
